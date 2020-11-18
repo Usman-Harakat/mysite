@@ -1,4 +1,5 @@
 import os
+import My_Se_Pr
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -13,7 +14,7 @@ SECRET_KEY = '@$bzz6&o7hum0h-_a6o$kurl0n+7x3$hz72*6fji-ktfohz59c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['testtest.pythonanywhere.com']
+ALLOWED_HOSTS = [My_Se_Pr.Web_Link]
 
 
 # Application definition
