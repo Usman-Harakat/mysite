@@ -38,7 +38,7 @@ def link2(request):
         <br>
         <br>
         <br>
-        <button onclick="document.location='{}'" style="width: 260px;height: 80px;display: block;margin-left: auto;margin-right: auto;font-size: 350%;" type="button" class="btn btn-primary">Link - الرابط</button>
+        <button onclick="document.location='{}'.replaceAll('%3F','?')" style="width: 260px;height: 80px;display: block;margin-left: auto;margin-right: auto;font-size: 350%;" type="button" class="btn btn-primary">Link - الرابط</button>
             """.format(Link))
     except:
         Link = My_Se_Pr.Del_Link#رابط التوهيم
